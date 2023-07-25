@@ -1,0 +1,483 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home__section {
+    width: 100%;
+    height: 100vh;
+    background: url(img/home\ page.jpg);
+    
+
+}
+.header__div {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15%;
+    align-items: center;
+}
+.logo__img {
+    width: 150px;
+    height: 40px;
+}
+.nav {
+    display: flex;
+}
+.english-btn select, .sign-inibtn button{
+    background: rgba(0,0,0,0.4);
+    border: 1px solid grey;
+    color: white;
+    font-size: 15px;
+    border-radius: .25em;
+    padding: 8px 20px;
+    
+}
+.sign-inibtn button {
+    margin-left: 20px;
+    background-color: rgb(198, 1, 1);
+    border: none;
+    
+}
+.sign-inibtn button:hover {
+    background-color:  rgb(148, 4, 4);
+}
+.home__content {
+   display: flex;
+   width: 100%;
+   height: 80vh;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 50px;
+   padding-top: 150px;
+   
+
+}
+.main__heading {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 900;
+}
+.sub__heading {
+    color: #e6dfdf;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.sub__heading2 {
+    color: #e1d7d7;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.home__content form  {
+    display: flex;
+   align-items: center;
+   margin-top: 15px;
+}
+.home__content form div input {
+    width: 380px;
+    padding: 18px;
+    color: #fff;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid gray;
+    border-radius: .25rem;
+
+}
+.home__content form div input::placeholder {
+    color: gainsboro;
+    font-size: 15px;
+}
+
+.home__content form div button {
+    width: 200px;
+    padding: 12px;
+    font-size: 25px;
+    color: #fff;
+    background-color: rgb(198, 1, 1);
+    border-radius: .25rem;
+    border: none;
+    margin-left: 10px;
+}
+.home__content form div button:hover {
+    background-color:   rgb(148, 4, 4);
+}
+.section2 {
+    padding: 65px 0;
+}
+.section2_div_main {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.section2_heading {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 40%;
+}
+.section2_mainheading h1 {
+    font-size: 2.8em;
+    font-weight: 900;
+    
+}
+.section2_subheading p {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.section2_video img {
+    
+    height: 350px;
+}
+.section3 {
+    padding: 70px 0;
+}
+.section3_div_main {
+    display: flex;
+    
+    justify-content:center;
+    
+
+}
+.section3_heading {
+order: 1;
+}
+.section3_heading {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 40%;
+}
+.section3_mainheading h1 {
+    font-size: 2.8em;
+    font-weight: 900;
+    
+}
+.section3_subheading p {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.section3_video img {
+  
+    height: 350px;
+    margin-right: 10px;
+}
+
+.section4 {
+    padding: 70px 0;
+}
+.section4_div_main {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+
+}
+
+.section4_heading {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 40%;
+}
+.section4_mainheading h1 {
+    font-size: 2.8em;
+    font-weight: 900;
+    
+}
+.section4_subheading p {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.section4_video img {
+  
+    height: 350px;
+    margin-right: 10px;
+}
+
+
+.section5 {
+    padding: 65px 0;
+}
+.section5_div_main {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.section5_heading {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 40%;
+    order: 1;
+}
+.section5_mainheading h1 {
+    font-size: 2.8em;
+    font-weight: 900;
+    
+}
+.section5_subheading p {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.section5_video img {
+    width: 20%px;
+    height: 350px;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+    color: #fff;
+    
+}
+.section6_heading {
+    font-size: 2.5em;
+    font-weight: 900;
+    align-self: center;
+}
+.faq {
+    width: 75%;
+    align-self: center;
+}
+
+.Questions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(53, 51, 51);
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 25px;
+    margin-top: 8px;
+    transition: .3s;
+}
+.Questions:hover {
+    background-color: rgb(82, 79, 79);
+}
+.answer {
+    background-color: rgb(38, 37, 37);
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 25px;
+    margin-top: 1px;
+    line-height: 30px;
+    display: none;
+
+}
+.Questions button {
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 35px;
+}
+.section6_lower {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section6_lower .section6_subheading h3{
+   font-size: 20px;
+   font-weight: 100;
+}
+
+.section6_form  {
+    display: flex;
+   align-items: center;
+   margin-top: 15px;
+}
+.section6_form input {
+    width: 380px;
+    padding: 18px;
+    color: #fff;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid gray;
+    border-radius: .25rem;
+
+}
+.section6_form input::placeholder {
+    color: gainsboro;
+    font-size: 15px;
+}
+
+.section6_form button {
+    width: 200px;
+    padding: 12px;
+    font-size: 25px;
+    color: #fff;
+    background-color: rgb(198, 1, 1);
+    border-radius: .25rem;
+    border: none;
+    margin-left: 10px;
+}
+.section6_form button:hover {
+    background-color:   rgb(148, 4, 4);
+}
+.section7 {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+    color: #fff;
+  
+}
+.section7_content {
+    width: 75%;
+    align-self: center;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+.section7_para span {
+    text-decoration: underline;
+}
+ul li {
+    text-decoration: underline;
+    color: #e1d7d7;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.section7_select {
+    margin-top: 20px;
+}
+.section7_select select {
+    background: rgba(0,0,0,0.4);
+    border: 1px solid grey;
+    color: white;
+    font-size: 15px;
+    border-radius: .25em;
+    padding: 8px 20px;
+}
+.section7_select p {
+    margin-top: 20px;
+    color: #e1d7d7;
+}
+@media screen and (max-width:960px){
+    .main__heading {
+        font-size: 2rem;
+        font-weight: 700;
+        
+    }
+    .section2_div_main {
+        flex-direction: column;
+    }
+    .section2_mainheading h1 {
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .section2_heading {
+        width: 100%;
+        text-align: center;
+    }
+    .section2_subheading p {
+        font-size: 20px;
+    }
+    /* section 3 */
+    .section3_div_main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3_mainheading h1 {
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .section3_heading {
+        width: 100%;
+        text-align: center;
+    }
+    .section3_subheading p {
+        font-size: 20px;
+    }
+    .section3_heading {
+        order: 0;
+       
+        
+        }
+        /*  section 4*/
+        .section4_div_main {
+            flex-direction: column;
+            align-items: center;
+        }
+        .section4_mainheading h1 {
+            font-size: 2em;
+            font-weight: 700;
+        }
+        .section4_heading {
+            width: 100%;
+            text-align: center;
+        }
+        .section4_subheading p {
+            font-size: 20px;
+        }
+        .section4_heading {
+            order: 0;
+           
+            
+            }
+            /* section 5 */
+             .section5_div_main {
+            flex-direction: column;
+            align-items: center;
+        }
+        .section5_mainheading h1 {
+            font-size: 2em;
+            font-weight: 700;
+        }
+        .section5_heading {
+            width: 100%;
+            text-align: center;
+        }
+        .section5_subheading p {
+            font-size: 20px;
+        }
+        .section5_heading {
+            order: 0;
+           
+            
+            }
+        /* section 6 */
+        .section6_heading  {
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+        .faq {
+            width: 95%;
+            
+           
+        }
+        .Questions {
+            font-size: 15px;
+            padding: 10px;
+        }
+        .answer {
+            font-size: 17px;
+            padding: 10px;
+        }
+        /* section 7 */
+        .section7_content {
+            width: 95%;
+        }
+    
+}
+
